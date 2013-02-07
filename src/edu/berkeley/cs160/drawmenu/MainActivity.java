@@ -191,12 +191,6 @@ public class MainActivity extends Activity {
 	      }
 	}
 
-	private void setShareIntent(Intent shareIntent) {
-	    if (mShareActionProvider != null) {
-	        mShareActionProvider.setShareIntent(shareIntent);
-	    }
-	}
-	
 	private Boolean saveBitmap() {
 		
 	    ByteArrayOutputStream bytes = new ByteArrayOutputStream();
