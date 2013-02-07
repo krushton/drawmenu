@@ -1,0 +1,30 @@
+<!-- <menu xmlns:android="http://schemas.android.com/apk/res/android" > -->
+
+<!--     <item -->
+<!--         android:id="@+id/menu_settings" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="@string/menu_settings"/> -->
+
+<!-- </menu> -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/red"
+        	android:showAsAction="ifRoom"
+            android:title="@string/red" />
+      <item android:id="@+id/green"
+            android:showAsAction="ifRoom"
+            android:title="@string/green" />
+      <item android:id="@+id/blue"
+            android:showAsAction="ifRoom"
+            android:title="@string/blue" />
+      
+       <item android:id="@+id/menu_item_share"
+        android:showAsAction="ifRoom"
+        android:title="Share"
+/>
+       
+        <item android:id="@+id/menu_item_save"
+        android:showAsAction="ifRoom"
+        android:title="Save" />
+</menu>
